@@ -40,11 +40,11 @@ Periodo_2002_2017 <- window(serie_precipitacion, start = c(2002, 1), end = c(201
 # 4. Exploración de la serie de tiempo
 
 ```{r exploracion-serie}
-plot(serie_precipitacion, main = "Serie Temporal: Precipitación del monte Tláloc",
+plot(serie_precipitacion, main = "Serie Temporal: Precipitación",
      ylab = "Precipitación (mm)", xlab = "Años")
 
 plot(Periodo_2002_2017,
-     main = "Precipitación del monte Tláloc (2002–2017)",
+     main = "Precipitación  (2002–2017)",
      ylab = "Precipitación (mm)",
      xlab = "Años")
 

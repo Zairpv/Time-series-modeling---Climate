@@ -1,4 +1,41 @@
-.Rproj.user
+# Archivos de sesión y configuración de R
+.Rproj.user/
 .Rhistory
+.Rapp.history
 .RData
+.RDataTmp
 .Ruserdata
+.Renviron
+
+# Archivos del sistema
+.DS_Store
+
+# Token OAuth
+.httr-oauth
+
+# Archivos de Quarto
+.quarto
+
+# Archivos temporales y de cache
+*.utf8.md
+*.knit.md
+*_cache/
+/cache/
+
+# Archivos de construcción de paquetes
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+
+# Vignettes generadas
+vignettes/*.html
+vignettes/*.pdf
+
+# Sitio pkgdown
+docs/
+
+# Archivos temporales de traducción
+po/*~
+
+# Archivos de RStudio Connect
+rsconnect/
